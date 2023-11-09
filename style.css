@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.card::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 260px;
+    height: 332px;
+    background: var(--Yelow, #F9C83B);
+    z-index: 0;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.object-cover {
+    object-fit: cover;
+}
+.cursor {
+    cursor: pointer;
+}
+/* width */
+.max-w-1440 {
+    max-width: 1440px;
+}
+.w-100 {
+    width: 100%;
+}
+.h-374 {
+    height: 374px;
+}
+.w-186 {
+    width: 186.916px;
+    height: 186.916px;
+}
+.w-189 {
+    flex: 1 1 0%;
+    border-bottom: 1px solid black;
+}
+
+.w-227 {
+   flex: 1 1 0%;
+   border-bottom: 1px solid black;
+}
+.w-353 {
+    height: 290px;
+}
+.z-0 {
+    z-index: 0;
+}
+.z-20 {
+    z-index: 20;
+}
+/* position */
+.fixed {
+    position: fixed;
+}
+
+.absolute {
+    position: absolute;
+}
+.right-0 {
+    right: -200px;
+    top: -200px;
+}
+.top-0 {
+    top: 0;
+    left: 0;
+}
+.top-10 {
+   
+   align-items: center;
+}
+.left-0 {
+    left: -50px;
+    bottom: -80px;
+}
+.right-1 {
+    bottom: -130px;
+}
+.relative {
+    position: relative;
+}
+/* border */
+.border-none {
+    border: none;
+}
+.border-bottom-yeellow {
+    flex: 1 1 0%;
+    border-bottom: 1px solid #F9C83B;
+}
+.border-bottom {
+    border-bottom: 1px solid #F9C83B;
+}
+.border-right {
+    border-left: 1px solid rgba(255, 255, 255, 0.10);
+}
+.border-bottom-1 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+.border-bottom-white {
+    border-bottom: 1px solid white;
+}
+/* background */
+.bg-transparent {
+    background: transparent;
+}
+.bg-img {
+    background-image: url(./img/guy-barbershop\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.bg-map {
+    background-image: url(./img/bg-map.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.bg-yellow {
+    background: #F9C83B;
+}
+.bg-black {
+    background: black;
+}
+.bg-white {
+    background: white;
+}
+/* display */
+.flex {
+    display: flex;
+}
+.grid {
+    display: grid;
+}
+.flex-column {
+    flex-direction: column;
+}
+.items-center {
+    align-items: center;
+}
+.gap-80 {
+    gap: 80px;
+}
+.gap-8 {
+    gap: 8px;
+}
+.gap-60 {
+    gap: 60px;
+}
+.gap-30 {
+    gap: 30px;
+}
+.gap-106 {
+    gap: 106px;
+}
+.gap-16 {
+    gap: 16px;
+}
+.gap-120 {
+    gap: 140px;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.hidden {
+    display: none;
+}
+.block {
+    display: block;
+}
+/* margin */
+.mx-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+
+/* padding */
+.py-35 {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.p-85 {
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+.py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.pb-70 {
+    padding-bottom: 70px;
+}
+.p-35 {
+    padding: 35px;
+}
+.pl-84 {
+    padding-left: 84px;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+.py-24 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.p-33 {
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-right: 75px;
+    padding-left: 75px;
+}
+.p-30 {
+    padding: 30px;
+}
+.pt-40 {
+    padding-top: 40px;
+}
+.pr-40 {
+    padding-left: 40px;
+}
+.pt-80 {
+    padding-top: 80px;
+}
+.pb-168 {
+    padding-bottom: 168px;
+}
+.px-27 {
+    padding-right: 38px;
+    padding-left: 38px;
+}
+.pt-170 {
+    padding-top: 170px;
+}
+.px-80 {
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+.px-20 {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.pt-60 {
+    padding-top: 60px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+/* font */
+.text-12 {
+    font-size: 12px;
+}
+.text-400 {
+    font-weight: 400;
+}
+.text-20 {
+    font-size: 20px;
+}
+.text-none {
+    text-decoration: none;
+}
+.text-500 {
+    font-weight: 500;
+}
+.text-18 {
+    font-size: 18px;
+}
+.text-600 {
+    font-weight: 600;
+}
+.text-24 {
+    font-size: 24px;
+}
+.text-32 {
+    font-size: 32px;
+}
+.text-center {
+    text-align: center;
+}
+.text-700 {
+    font-weight: 700;
+}
+.text-40 {
+    font-size: 40px;
+}
+/* colors */
+.text-yellow {
+    color: #F9C83B;
+}
+.text-white {
+    color: white;
+}
+.text-black {
+    color: black;
+}
+.line-110 {
+    line-height: 50px;
+}
+.line-25 {
+    line-height: 25px;
+}
+.line-50 {
+    line-height: 50px;
+}
+.z-10 {
+    z-index: 10;
+}
+@media (min-width: 300px){
+    .mt-124 {
+        padding-top: 124px;
+        padding-bottom: 240px;
+    }
+}
+@media (min-width: 768px) {
+    .md-text-24 {
+        font-size: 24px;
+    }
+    .md-block {
+        display: flex;
+    }
+    .left-0 {
+        left: -50px;
+        bottom: -20px;
+    }
+    .md-h-440 {
+        height: 440px;
+    }
+    .md-text-20 {
+        font-size: 20px;
+    }
+    .md-grid-cols-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .md-text-72 {
+        font-size: 72px;
+    }
+    .md-pt-20 {
+        padding-top: 20px;
+    }
+    .md-text-40 {
+        font-size: 40px;
+    }
+    .md-pt-30 {
+        padding-top: 30px;
+    }
+    .md-pt-250 {
+        padding-top: 250px;
+    }
+    .md-pt-60 {
+        margin-top:  60px;
+    }
+    .md-pt-150 {
+        padding-top: 150px;
+    }
+    .md-gap-158 {
+        gap: 158px;
+        row-gap: 113px;
+    }
+    .md-flex-row {
+        flex-direction: row;
+    }
+    .md-items-center {
+        align-items: start;
+    }
+    .md-pt-300 {
+        padding-top: 300px;
+    }
+    .md-pt-40 {
+        padding-top: 40px;
+    }
+    .md-p-70 {
+        padding: 70px;
+    }
+    .md-mt-60 {
+        margin-top: 60px;
+    }
+    .md-pt-100 {
+        padding-top: 100px;
+    }
+    .md-pb-254 {
+        padding-bottom: 254px;
+    }
+    .line-110 {
+        line-height: 60px;
+    }
+    .md-top-5 {
+        top: 150px;
+        right: 170px;
+    }
+    .md-gap-50 {
+        gap: 50px;
+    }
+}
+@media (min-width: 1024px) {
+    .lg-flex {
+        display: flex;
+    }
+    .lg-gap-100 {
+        gap: 100px;
+    }
+    .lg-border-top {
+        border-top: 1px solid rgba(255, 255, 255, 0.10);
+    }
+    .lg-top-10 {
+        top: 100px;
+        left: 700px;
+    }
+    .lg-p-60 {
+        padding: 60px;
+    }
+    .lg-col-span-2 {
+        grid-column: span 2;
+    }
+    .lg-bg-yellow {
+        background: #F9C83B;
+    }
+    .lg-max-w-736 {
+        max-width: 736px;
+    }
+    .lg-col-span-5 {
+        grid-column: span 5;
+    }
+    .lg-hidden {
+        display: none;
+    }
+    .lg-block {
+        display: flex;
+        
+    }
+    .lg-grid-cols-7 {
+        grid-template-columns: repeat(7, 1fr);
+    }
+    .lg-grid {
+        display: grid;
+    }
+    .border-bottom-1 {
+        border-bottom: 0;
+    }
+    .lg-grid-cols-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .lg-grid-cols-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .lg-grid-cols-4 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .line-110 {
+        line-height: 90px;
+    }
+    .lg-py-40 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .lg-pt-386 {
+        padding-top: 386px;
+    }
+   
+}
